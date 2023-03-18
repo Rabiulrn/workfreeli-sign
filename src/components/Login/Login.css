@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+.login-container{
+    display: flex;
+}
+.left{
+    background-color:#0c1d48;
+    min-height: 100vh;
+    width: 100%;
+    padding-left: 80px;
+
+}
+.left-img{
+    background-image: url(../../../public/images/1.webp);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+  
+    height: 300px; 
+}
+.left-h{
+    font-size: 40px;
+    margin-bottom: 38px;
+    width: 55%;
+    color: white;
+}
+.left-p{
+    font-size: 20.8px;
+    width: 80%;
+    color:white;
+}
+.right{
+    width: 100%;
+    padding: 70px 100px;
+    
+}
+.right p{
+    text-align: center;
+}
+.right-h{
+    font-size: 38px;
+}
+.right-p{
+    color: rgb(86, 86, 86);
+    font-weight: 700;
+}
+.login-input{
+    margin-top: 40px;
+}
+.login-label{
+    display: block;
+    color: #565656;
+    font-size: 16px;
+
+}
+.login-icon{
+   background-color: gray;
+    margin-right: 5px !important;
+    padding-left: 5px !important;
+    padding-top: 10px;
+    height: 40px;
+    display: block;
+    width: 30px;
+}
+.login-icon-f{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.login-input-field{
+    border: .5px solid gray;
+    width: 80%;
+    padding: 0%;
+    border-radius: 5px;
+  
+
+}
+/* .login-ep:focus{
+    border: 1px solid red;
+} */
+.login-input-inside{
+display: flex;
+}
+.login-ep{
+    font-size: 18px;
+    border: none;
+    outline: none;
+   
+
+}
+
+.remember-me{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.login-button{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    border: 1px solid blue;
+    background-color: #565656;
+    border-radius: 5px;
+    transition: all 1s ease;
+}
+.login-button p{
+    margin-top: 20px;
+    color: white;
+}
+.login-button:hover{
+    background-color: #002e98;
+    cursor: pointer;
+}
+
+
+@media (max-width: 765px){
+    .left{
+        display: none;
+    }
+}
